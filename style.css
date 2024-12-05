@@ -1,0 +1,92 @@
+body {
+    font-family: cursive;
+    background-color: orange;
+    color: black;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: darkorange;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.701);
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorange;
+    border-top: 10px solid rgba(255, 200, 100, 0.9);
+    border-bottom: 10px solid rgba(255, 200, 100, 0.9);
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 15px;
+    color: black;
+    border-radius: 30px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    border-radius: 100px;
+}
+
+footer {
+    background-color: darkorange;
+    display: flex;
+    padding: 40px 0px 45px 45px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-top: 10px solid rgba(255, 200, 100, 0.9);
+    justify-content: space-around;
+}
+
+footer a {
+    margin-right: 50px;
+}
+
+footer p {
+    font-size: 24px;
+}
